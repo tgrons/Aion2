@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    Szablon poradnika. Skopiuj ten plik jako poradniki/krotka-nazwa.html.
+    Podmień title, description, datę, h1 i treść. Usuń akapit .szablon-info
+    oraz sekcję „Wzorce składni”. Nie linkuj niczego adresem zaczynającym się od /.
+    Tego pliku nie dopisuj do poradniki.json.
+  -->
+  <title>Szablon poradnika – Aion 2</title>
+  <meta name="description" content="Szablon nowej strony poradnika. To nie jest opublikowany tekst.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c1016">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;family=Literata:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="pomin" href="#tresc">Przejdź do treści</a>
+  <header class="pasek">
+    <div class="kontener pasek-wiersz">
+      <a class="marka" href="../index.html">Aion 2</a>
+      <nav aria-label="Nawigacja">
+        <a href="../index.html#spis">← Spis poradników</a>
+      </nav>
+    </div>
+  </header>
+  <main id="tresc" class="kontener artykul">
+    <article>
+      <header class="naglowek-artykulu">
+        <p class="meta"><time datetime="RRRR-MM-DD">dzień miesiąc rok</time></p>
+        <h1>Tytuł poradnika</h1>
+        <p class="lead">Jedno lub dwa zdania: o czym jest tekst i dla kogo.</p>
+      </header>
+      <p class="szablon-info">To jest szablon do skopiowania, a nie poradnik. Nie dodawaj pliku <code>_szablon.html</code> do spisu. Po skopiowaniu usuń ten akapit i sekcję „Wzorce składni”, a potem dopisz wpis w <code>poradniki.json</code>. Kroki są w README repozytorium.</p>
+
+      <h2>Wzorce składni</h2>
+      <p>Poniższe bloki pokazują znaczniki, które obsługuje wspólny arkusz stylów. To nie jest opis gry — podmień je na własną treść albo usuń całą sekcję.</p>
+
+      <h3>Listy</h3>
+      <ul>
+        <li>Punkt nienumerowany.</li>
+        <li>Drugi punkt, z zagnieżdżeniem:
+          <ol>
+            <li>Pierwszy krok.</li>
+            <li>Drugi krok.</li>
+          </ol>
+        </li>
+      </ul>
+
+      <h3>Tabela</h3>
+      <div class="tabela">
+        <table>
+          <caption>Przykładowa tabela. Podpis jest opcjonalny.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Kolumna</th>
+              <th scope="col">Kolumna</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wartość</td>
+              <td>Wartość</td>
+            </tr>
+            <tr>
+              <td>Wartość</td>
+              <td>Wartość</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Skrót klawiszowy</h3>
+      <p>Zapis skrótu: <kbd>Ctrl</kbd> + <kbd>C</kbd>. Nazwa w zdaniu: <code>/przyklad</code>.</p>
+      <pre><code>pierwsza linia bloku
+druga linia bloku</code></pre>
+
+      <h3>Ilustracja</h3>
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Puste miejsce na ilustrację">
+          <rect width="640" height="200" fill="#121820"/>
+          <text x="320" y="108" text-anchor="middle" fill="#e4c57d" font-size="22" font-family="Georgia, serif">Podmień na własny obraz</text>
+        </svg>
+        <figcaption>Podpis ilustracji. W poradniku wstaw <code>&lt;img src="obrazy/nazwa.png" alt="Opis"&gt;</code> — ścieżka względem pliku HTML.</figcaption>
+      </figure>
+
+      <h3>Ramki</h3>
+      <aside class="ramka ramka-wskazowka">
+        <p class="ramka-etykieta">Wskazówka</p>
+        <p>Krótka rada obok kroku. Zamień ten tekst na własny.</p>
+      </aside>
+      <aside class="ramka ramka-ostrzezenie">
+        <p class="ramka-etykieta">Ostrzeżenie</p>
+        <p>Coś, co łatwo zepsuć albo stracić. Zamień ten tekst na własny.</p>
+      </aside>
+      <aside class="ramka ramka-uwaga">
+        <p class="ramka-etykieta">Uwaga</p>
+        <p>Doprecyzowanie, które nie jest ostrzeżeniem. Zamień ten tekst na własny.</p>
+      </aside>
+
+      <h3>Cytat</h3>
+      <blockquote>
+        <p>Cytat albo przytoczone zdanie z gry. Zamień ten tekst na własny.</p>
+      </blockquote>
+
+      <h4>Mniejszy śródtytuł</h4>
+      <p>Zwykły akapit pod śródtytułem czwartego poziomu.</p>
+    </article>
+  </main>
+  <footer class="stopka">
+    <div class="kontener">
+      <p><a href="../index.html#spis">Wróć do spisu poradników</a></p>
+      <p>Aion 2 jest znakiem towarowym swoich właścicieli. Ta strona nie jest z nimi powiązana.</p>
+    </div>
+  </footer>
+</body>
+</html>
