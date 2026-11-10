@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <script>document.documentElement.classList.add("z-js");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aion 2 – Poradniki</title>
+  <meta name="description" content="Polskie poradniki do Aion 2 (edycja Steam).">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c1016">
+  <meta property="og:title" content="Aion 2 – Poradniki">
+  <meta property="og:description" content="Polskie poradniki do Aion 2 (edycja Steam).">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:url" content="https://tgrons.github.io/Aion2/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;family=Literata:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pomin" href="#tresc">Przejdź do treści</a>
+  <header class="wstep">
+    <div class="kontener">
+      <p class="nadtytul">Edycja Steam</p>
+      <h1>Aion&nbsp;2 – Poradniki</h1>
+      <p class="lead">Polskie poradniki do gry Aion 2 (edycja Steam). Spis poniżej prowadzi do poszczególnych tekstów.</p>
+    </div>
+  </header>
+  <main id="tresc" class="kontener">
+    <section id="spis" aria-labelledby="spis-naglowek">
+      <h2 id="spis-naglowek">Spis poradników</h2>
+      <div id="lista-poradnikow" class="ze-js" aria-live="polite" aria-busy="true">
+        <p class="stan">Wczytywanie spisu…</p>
+      </div>
+      <p class="stan bez-js">Spis wczytuje się przez JavaScript. Źródło listy: <a href="poradniki.json">poradniki.json</a>.</p>
+    </section>
+  </main>
+  <footer class="stopka">
+    <div class="kontener">
+      <p>Niezależny zbiór poradników dla graczy.</p>
+      <p>Aion 2 jest znakiem towarowym swoich właścicieli. Ta strona nie jest z nimi powiązana.</p>
+    </div>
+  </footer>
+  <script src="js/lista.js"></script>
+</body>
+</html>
