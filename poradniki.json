@@ -1,3 +1,16 @@
 {
-  "poradniki": []
+  "poradniki": [
+    {
+      "tytul": "Arcana: karty, ulepszanie i łączenie",
+      "opis": "Jak działa Arcana: ulepszanie kart, łączenie setów, podział na klasy oraz różnice między Global a KR.",
+      "data": "2026-11-10",
+      "plik": "arcana.html"
+    },
+    {
+      "tytul": "Statystyki i co wbijać",
+      "opis": "Kompendium statystyk: co daje każdy stat, jak się grupują, macierz klas i priorytety dla ośmiu klas.",
+      "data": "2026-11-10",
+      "plik": "staty.html"
+    }
+  ]
 }
