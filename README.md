@@ -28,7 +28,7 @@ Plik `.nojekyll` musi zostać. Bez niego Pages uruchamia Jekylla, a Jekyll pomij
 ## Jak dodać poradnik
 
 1. Skopiuj `poradniki/_szablon.html` pod nową nazwę, na przykład `poradniki/pierwsze-kroki.html`.
-   Nazwa pliku: litery, cyfry i myślniki, końcówka `.html`. Najlepiej same małe litery. Bez spacji, polskich znaków, kropek w środku nazwy i bez podkatalogu.
+   Nazwa pliku: litery, cyfry i myślniki, końcówka `.html`. Najlepiej same małe litery. Bez spacji, polskich znaków i kropek w środku nazwy. Zwykły poradnik leży wprost w `poradniki/`. Poradnik klas jest wyjątkiem: pliki są w `poradniki/klasy/`, a pole `plik` to `klasy/index.html`.
 2. W kopii ustaw `<title>`, `<meta name="description">`, datę w `<time datetime="RRRR-MM-DD">` (widoczny tekst daty też) oraz `<h1>`.
 3. Wpisz treść. Usuń akapit z klasą `szablon-info` i całą sekcję „Wzorce składni”. Zdejmij też `<meta name="robots" content="noindex, nofollow">`, żeby tekst mógł trafić do wyszukiwarki.
 4. Obrazy trzymaj obok poradnika, na przykład w `poradniki/obrazy/nazwa.png`. W HTML podaj ścieżkę względem pliku poradnika: `obrazy/nazwa.png`.
@@ -54,7 +54,7 @@ Pola:
 | `tytul` | Wymagany. Tekst karty na stronie głównej. |
 | `opis` | Krótki opis pod tytułem. Może być pusty. |
 | `data` | `RRRR-MM-DD`. Zła data nie wyświetli się przy karcie; wpis i tak może być na liście. |
-| `plik` | Sama nazwa pliku z kroku 1, bez katalogu. |
+| `plik` | Nazwa pliku z kroku 1, bez katalogu `poradniki/`. Dla poradnika w podkatalogu: `klasy/index.html`. |
 
 Pola są zwykłym tekstem. Znaczniki HTML wpisane w JSON pokażą się dosłownie, nie jako formatowanie.
 

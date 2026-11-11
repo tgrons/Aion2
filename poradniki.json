@@ -11,6 +11,12 @@
       "opis": "Kompendium statystyk: co daje każdy stat, jak się grupują, macierz klas i priorytety dla ośmiu klas.",
       "data": "2026-11-10",
       "plik": "staty.html"
+    },
+    {
+      "tytul": "Klasy: skille, pasywki i stygmy",
+      "opis": "Osiem klas edycji Global (Steam, EU): skille aktywne, pasywki i stygmy, z priorytetem tam, gdzie podaje go źródło.",
+      "data": "2026-11-11",
+      "plik": "klasy/index.html"
     }
   ]
 }

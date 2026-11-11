@@ -39,7 +39,7 @@
   }
 
   function czyBezpiecznyPlik(plik) {
-    return /^[A-Za-z0-9][A-Za-z0-9-]*\.html$/.test(plik);
+    return /^(?:[a-z0-9][a-z0-9-]*\/)?[A-Za-z0-9][A-Za-z0-9-]*\.html$/.test(plik);
   }
 
   function posortuj(wpisy) {
@@ -89,7 +89,7 @@
 
     if (wpisy.length === 0 && dane.poradniki.length > 0) {
       return {
-        blad: "Żaden wpis ze spisu nie został pokazany. Pole plik to sama nazwa pliku .html (litery, cyfry, myślniki), a tytul nie może być pusty."
+        blad: "Żaden wpis ze spisu nie został pokazany. Pole plik to nazwa pliku .html albo jedna ścieżka katalog/plik.html (litery, cyfry, myślniki), a tytul nie może być pusty."
       };
     }
 
