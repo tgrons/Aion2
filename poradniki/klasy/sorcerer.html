@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorcerer: skille, pasywki i stygmy – Aion 2</title>
+  <meta name="description" content="Sorcerer (DPS magiczny, Spellbook) w Aion 2 Global: skille aktywne, pasywki i stygmy.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c1016">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;family=Literata:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="klasy.css">
+</head>
+<body class="strona-klas">
+  <a class="pomin" href="#tresc">Przejdź do treści</a>
+  <header class="pasek">
+    <div class="kontener pasek-wiersz">
+      <a class="marka" href="../../index.html">Aion 2</a>
+      <nav aria-label="Nawigacja">
+        <a href="index.html">Klasy</a>
+        <a href="../../index.html#spis">Spis poradników</a>
+      </nav>
+    </div>
+  </header>
+  <main id="tresc" class="kontener artykul">
+<article>
+<header class="naglowek-klasy">
+<img src="ikony/emblematy/sorcerer.webp" alt="">
+<p class="meta"><time datetime="2026-11-11">11 listopada 2026</time> · Global · Steam, EU</p>
+<h1>Sorcerer</h1>
+<p class="lead">Magiczne obrażenia z księgi. Niższe HP i obrona, w zamian kontrola tłumu. Broń: Spellbook. Rola: DPS magiczny.</p>
+<p class="komplet czesciowe">Brak osobnego opracowania autora. Liczby i specjalizacje ze źródeł pod kartą; zalecany poziom tylko tam, gdzie źródło go podaje.</p>
+</header>
+<ul class="spis-sekcji">
+<li><a href="#skille">Skille aktywne (12)</a></li>
+<li><a href="#pasywki">Pasywki (10)</a></li>
+<li><a href="#stygmy">Stygmy (13)</a></li>
+<li><a href="#build">Build PvE</a></li>
+<li><a href="#zrodla">Źródła</a></li>
+</ul>
+<aside class="ramka ramka-wskazowka"><p class="ramka-etykieta">Jak czytać</p>
+<p>Punkty skilli kupują poziomy 1–10 (do 10 trzeba 21 punktów). Wyżej dokładają węzły Daevanion, linie na ekwipunku i Arcana. Specjalizacje: trzy opcje od poziomu skilla 8, jedna od 12, jedna od 16. Sloty: 8, 12 i 20, więc trzeci wybór jest dopiero na 20. Stygmy: cztery sloty od poziomów postaci 22, 27, 32 i 37; perki na poziomach stygmy 5, 10, 15 i 20. Odznaka „brak danych” znaczy, że żadne z użytych źródeł nie podało jednego docelowego poziomu.</p>
+</aside>
+<aside class="ramka ramka-uwaga"><p class="ramka-etykieta">KR i wyjątki</p><ul><li>Tooltip nie podaje liczby dla DoT Hellfire, opóźnionych obrażeń Blaze ani perków „Enhanced” Fire Wall i Cold Storm (Companion).</li><li>Firestorm na KR: użycie innego skilla, gdy pocisk leci, anuluje pocisk. Companion podaje to jako zachowanie KR.</li><li>Global: 4 sloty stygm, cap 20. KR: 6 slotów i cap 25.</li></ul></aside>
+<section id="skille"><h2>Skille aktywne</h2><div class="siatka-skilli"><article class="skill aktywny" id="firestorm">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15040000.webp" alt="" width="64" height="64"><div><h3>Firestorm</h3><p class="meta">Postać lvl 1 · CD 5 s · MP 250</p></div>
+<p class="priorytet"><span class="lv lv-max">w rotacji</span></p></div>
+<p class="opis">114 Fire obrażeń jeden cel. Mobile. 5 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): +20% Skill Speed, potem −2 s CD Hellfire za kulę ognia (12). Od 16 +15% obrażeń za kulę (do +75%) zastępuje Skill Speed. Przy ciasnej manie lepszy pierwszy wybór to −50% MP.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>-50% MP cost</div></li><li class=""><span class="ol">poziom 8</span><div>+20% Skill Speed</div></li><li class=""><span class="ol">poziom 8</span><div>-60% Incoming Heal na 5 s przy trafieniu</div></li><li class=""><span class="ol">poziom 12</span><div>-2 s Hellfire cooldown na fireball</div></li><li class=""><span class="ol">poziom 16</span><div>+15% obrażeń na fireball, do +75%</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/firestorm-15040000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="ice-chain">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15090000.webp" alt="" width="64" height="64"><div><h3>Ice Chain</h3><p class="meta">Postać lvl 1 · bez CD · MP 120</p></div>
+<p class="priorytet"><span class="lv lv-mid">w rotacji</span></p></div>
+<p class="opis">Second atak podstawowy: 79 Water obrażeń do 4 wrogów i Slow (-40% Move Speed) na 5 s. otwiera łańcuch Cold Wave (86, 120 MP). Mobile. 2 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): +20% Skill Speed, potem −1 s CD Winter&#x27;s Shackles za trafienie (12).</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>-20% MP cost</div></li><li class=""><span class="ol">poziom 8</span><div>+20% Skill Speed</div></li><li class=""><span class="ol">poziom 8</span><div>Do +12% obrażeń gdy trafi mniej celów</div></li><li class=""><span class="ol">poziom 12</span><div>-1 s Winter&#x27;s Shackles cooldown przy trafieniu</div></li><li class=""><span class="ol">poziom 16</span><div>Cold Wave has 5% szansy na Frost na 2 s</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/ice-chain-15090000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="flame-arrow">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15210000.webp" alt="" width="64" height="64"><div><h3>Flame Arrow</h3><p class="meta">Postać lvl 1 · bez CD · przywraca 100 MP</p></div>
+<p class="priorytet"><span class="lv lv-mid">w rotacji</span></p></div>
+<p class="opis">Atak podstawowy: 62 Fire obrażeń jeden cel. otwiera łańcuch Burst (66, przywraca 100 MP) i Pyroclasm (73, przywraca 120 MP). Mobile.</p>
+
+<p class="nota">PvE (aion2.gg): +50% Multi-Hit, potem +5% Fire Damage Boost na 10 s po Pyroclasm (12). Od 16 reset CD Blaze po Pyroclasm zastępuje Multi-Hit do poziomu 20.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>+20% MP przywrócone</div></li><li class=""><span class="ol">poziom 8</span><div>Pochłania 1% HP</div></li><li class=""><span class="ol">poziom 8</span><div>+50% Multi-Hit przy trafieniu</div></li><li class=""><span class="ol">poziom 12</span><div>+5% Fire Damage Boost na 10 s gdy Pyroclasm fires</div></li><li class=""><span class="ol">poziom 16</span><div>Pyroclasm resets Blaze</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/flame-arrow-15210000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="bittercold-wind">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15280000.webp" alt="" width="64" height="64"><div><h3>Bittercold Wind</h3><p class="meta">Postać lvl 3 · CD 15 s · MP 150</p></div>
+<p class="priorytet"><span class="lv lv-mid">w rotacji</span></p></div>
+<p class="opis">Summons wind na 2 s that zadaje 238 Water obrażeń do 4 wrogów, z 60% szansy na Root na 3 s (100% na NPCs). 10 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): +1 s wiatru, potem ignoruje Block i Evasion jako krytyk (12), potem użycie w ruchu.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>+1 s summon</div></li><li class=""><span class="ol">poziom 8</span><div>Becomes mobile</div></li><li class=""><span class="ol">poziom 8</span><div>Przyciąga</div></li><li class=""><span class="ol">poziom 12</span><div>Ignoruje Block i Evasion, lands as Critical Hit</div></li><li class=""><span class="ol">poziom 16</span><div>-1 s Frost cooldown przy trafieniu</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/bittercold-wind-15280000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="blaze">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15050000.webp" alt="" width="64" height="64"><div><h3>Blaze</h3><p class="meta">Postać lvl 4 · CD 5 s · przywraca 100 MP</p></div>
+<p class="priorytet"><span class="lv lv-max">w rotacji</span></p></div>
+<p class="opis">198 Fire obrażeń cel z Fire Mark tylko. Mobile. 7 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): +50% MP, potem Multi-Hit (12). Od 16 −3 s CD Wish of Concentration zastępuje opcję MP do poziomu 20.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Pochłania 3% HP</div></li><li class=""><span class="ol">poziom 8</span><div>+50% MP przywrócone</div></li><li class=""><span class="ol">poziom 8</span><div>Delayed obrażeń po 3 s</div></li><li class=""><span class="ol">poziom 12</span><div>Multi-Hit przy trafieniu</div></li><li class=""><span class="ol">poziom 16</span><div>-3 s Wish of Concentration cooldown przy trafieniu</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/blaze-15050000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="flame-scattershot">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15010000.webp" alt="" width="64" height="64"><div><h3>Flame Scattershot</h3><p class="meta">Postać lvl 5 · bez CD · bez kosztu MP</p></div>
+<p class="priorytet"><span class="lv lv-low">1</span></p></div>
+<p class="opis">120 Fire obrażeń staggered cel tylko.</p>
+
+<p class="nota">aion2.gg: zostaw na randze 1. Trafia tylko cel ze Stagger i nic nie kosztuje.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Pochłania 5% HP</div></li><li class=""><span class="ol">poziom 8</span><div>Przywraca 120 MP</div></li><li class=""><span class="ol">poziom 8</span><div>Becomes mobile</div></li><li class=""><span class="ol">poziom 12</span><div>Multi-Hit przy trafieniu</div></li><li class=""><span class="ol">poziom 16</span><div>-1 s do każdy cooldown przy trafieniu</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/flame-scattershot-15010000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="frost">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15150000.webp" alt="" width="64" height="64"><div><h3>Frost</h3><p class="meta">Postać lvl 7 · CD 30 s · MP 100</p></div>
+<p class="priorytet"><span class="lv lv-low">paczki</span></p></div>
+<p class="opis">178 Water obrażeń do 4 wrogów, z 50% szansy na Frost cel na 3 s (100% na NPCs). Mobile. 10 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): resetuje CD Frost Burst, gdy Frost się przyjmie. Bossowie zrzucają Frost.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Przywraca 200 MP</div></li><li class=""><span class="ol">poziom 8</span><div>−5 s CD</div></li><li class=""><span class="ol">poziom 8</span><div>Resets Frost Burst gdy Frost lands</div></li><li class=""><span class="ol">poziom 12</span><div>+25% Frost chance na players</div></li><li class=""><span class="ol">poziom 16</span><div>+1 s Frost</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/frost-15150000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="winters-shackles">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15110000.webp" alt="" width="64" height="64"><div><h3>Winter&#x27;s Shackles</h3><p class="meta">Postać lvl 8 · CD 45 s · MP 200</p></div>
+<p class="priorytet"><span class="lv lv-mid">w rotacji</span></p></div>
+<p class="opis">275 Water obrażeń do 4 wrogów i Slow na 3 s.</p>
+
+<p class="nota">PvE (aion2.gg): +20% PvE Damage Boost na 5 s przy trafieniu; potem w ruchu (drugi slot na 12) i −15 s CD (16).</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Becomes mobile</div></li><li class=""><span class="ol">poziom 8</span><div>30% Frost na 3 s</div></li><li class=""><span class="ol">poziom 8</span><div>+20% PvE i +10% PvP Damage Boost na 5 s</div></li><li class=""><span class="ol">poziom 12</span><div>Dodaje Winter&#x27;s Illusion</div></li><li class=""><span class="ol">poziom 16</span><div>−15 s CD</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/winters-shackles-15110000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="frost-burst">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15220000.webp" alt="" width="64" height="64"><div><h3>Frost Burst</h3><p class="meta">Postać lvl 10 · CD 10 s · bez kosztu MP</p></div>
+<p class="priorytet"><span class="lv lv-low">paczki</span></p></div>
+<p class="opis">395 Water obrażeń do 4 wrogów wokół frozen cel. przeciw Incapacitated Immunity it has 7% szansy na trigger. 7 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): pochłania 7% HP, potem ignoruje Block i Evasion jako krytyk (12). Na bossie Frost prawie nie siada, więc skill odpala się tylko w 7%.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Pochłania 7% HP</div></li><li class=""><span class="ol">poziom 8</span><div>Becomes mobile</div></li><li class=""><span class="ol">poziom 8</span><div>75% Knock Back 2 m</div></li><li class=""><span class="ol">poziom 12</span><div>Ignoruje Block i Evasion, lands as Critical Hit</div></li><li class=""><span class="ol">poziom 16</span><div>50% szansy na reset jego cooldown</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/frost-burst-15220000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="wish-of-concentration">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15310000.webp" alt="" width="64" height="64"><div><h3>Wish of Concentration</h3><p class="meta">Postać lvl 12 · CD 60 s · MP 100</p></div>
+<p class="priorytet"><span class="lv lv-mid">w rotacji</span></p></div>
+<p class="opis">+10% Attack i +100 Accuracy na 10 s (20 s przy skill poziom 20). Mobile, brak cel.</p>
+
+<p class="nota">PvE (aion2.gg): +10% Attack, potem +10% Combat Speed (12), potem −10 s do wszystkich CD (16).</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>-10% MP cost</div></li><li class=""><span class="ol">poziom 8</span><div>+10% więcej Attack</div></li><li class=""><span class="ol">poziom 8</span><div>+500 Max MP</div></li><li class=""><span class="ol">poziom 12</span><div>+10% Combat Speed</div></li><li class=""><span class="ol">poziom 16</span><div>-10 s do każdy cooldown</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/wish-of-concentration-15310000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="hellfire">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15060000.webp" alt="" width="64" height="64"><div><h3>Hellfire</h3><p class="meta">Postać lvl 14 · CD 45 s · MP 200</p></div>
+<p class="priorytet"><span class="lv lv-max">w rotacji</span></p></div>
+<p class="opis">Charge skill, 3 levels: 1 137 do 3 412 Fire obrażeń do 4 wrogów. 20 do 35 stagger.</p>
+
+<p class="nota">PvE (aion2.gg): +30% Skill Speed, potem ignoruje Block i Evasion jako Multi-Hit (12). Od 16 −15 s CD zajmuje drugi slot, aż poziom 20 otworzy trzeci.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>+30% Skill Speed</div></li><li class=""><span class="ol">poziom 8</span><div>Fire obrażeń over time na 10 s</div></li><li class=""><span class="ol">poziom 8</span><div>Becomes mobile</div></li><li class=""><span class="ol">poziom 12</span><div>Ignoruje Block i Evasion, lands as Multi-Hit</div></li><li class=""><span class="ol">poziom 16</span><div>−15 s CD</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/hellfire-15060000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill aktywny" id="defiance">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15240000.webp" alt="" width="64" height="64"><div><h3>Defiance</h3><p class="meta">Postać lvl 16 · CD 60 s (41 s at 20) · bez kosztu MP</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Usuwa Stun, Knockdown, Airborne, Grab, Frost i Fear i daje Tenacity (status immunity) na 5 s. redukcja CD nie działa.</p>
+
+<p class="nota">PvE (aion2.gg), specjalizacja: przywraca 20% HP przy użyciu. Docelowej rangi poradnik nie podaje.</p>
+<h4>Specjalizacje</h4><ul class="opcje"><li class=""><span class="ol">poziom 8</span><div>Dodaje Curse: Old Tree</div></li><li class=""><span class="ol">poziom 8</span><div>Przywraca 1 000 Stamina</div></li><li class=""><span class="ol">poziom 8</span><div>Przywraca 20% HP</div></li><li class=""><span class="ol">poziom 12</span><div>+2 s Tenacity</div></li><li class=""><span class="ol">poziom 16</span><div>+50% PvE i +25% PvP Damage Tolerance w trakcie Tenacity</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/defiance-15240000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article></div></section>
+<section id="pasywki"><h2>Pasywki</h2><div class="siatka-skilli"><article class="skill pasywka" id="fire-mark">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15710000.webp" alt="" width="64" height="64"><div><h3>Fire Mark</h3><p class="meta">Postać lvl 1</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Any Fire hit marks cel na 5 s. marked cel has 20% szansy na take 32 dodatkowe obrażenia od Fire hit (wewnętrzny CD 1 s).</p>
+<p class="liczby">Poziom 1: 369 dodatkowe obrażenia</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/fire-mark-15710000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="robe-of-earth">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15720000.webp" alt="" width="64" height="64"><div><h3>Robe of Earth</h3><p class="meta">Postać lvl 6</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+7% Max MP, +5 Natural MP Regen, +105 Critical Hit podczas MP is 50% albo więcej</p>
+<p class="liczby">Poziom 1: +25% Max MP, +50 regen, +150 Critical Hit</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/robe-of-earth-15720000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="cold-snap">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15730000.webp" alt="" width="64" height="64"><div><h3>Cold Snap</h3><p class="meta">Postać lvl 9</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">50% szansy na 43 dodatkowe obrażenia na hitting slowed cel (wewnętrzny CD 1 s)</p>
+<p class="liczby">Poziom 1: 213 dodatkowe obrażenia</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/cold-snap-15730000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="robe-of-flame">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15740000.webp" alt="" width="64" height="64"><div><h3>Robe of Flame</h3><p class="meta">Postać lvl 11</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+100 Accuracy, +1% PvE i +0,5% PvP Damage Boost, +0,2% Double Chance</p>
+<p class="liczby">Poziom 1: +10% PvE, +5% PvP Damage Boost, +2% Double Chance (Accuracy stays 100)</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/robe-of-flame-15740000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="absorb-essence">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15760000.webp" alt="" width="64" height="64"><div><h3>Absorb Essence</h3><p class="meta">Postać lvl 13</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+10,7% Ailment-type i Mental-type Chance; przywraca 25 MP przy trafieniu atakiem (wewnętrzny CD 1 s)</p>
+<p class="liczby">Poziom 1: +17%; 70 MP</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/absorb-essence-15760000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="grace-of-resistance">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15770000.webp" alt="" width="64" height="64"><div><h3>Grace of Resistance</h3><p class="meta">Postać lvl 15</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+11,2% Mental-type i Impact-type Resist</p>
+<p class="liczby">Poziom 1: +22%</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/grace-of-resistance-15770000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="robe-of-cold">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15750000.webp" alt="" width="64" height="64"><div><h3>Robe of Cold</h3><p class="meta">Postać lvl 17</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+1% Defense, +55 Critical Hit Resist; slows attacker o 25% na 2 s (CD 10 s)</p>
+<p class="liczby">Poziom 1: +10% Defense, +100, 40% na 4 s</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/robe-of-cold-15750000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="grace-of-enhancement">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15780000.webp" alt="" width="64" height="64"><div><h3>Grace of Enhancement</h3><p class="meta">Postać lvl 21</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+20% PvE i +10% PvP Damage Boost podczas MP is 25% albo więcej; 50% szansy na 106 obrażeń przy trafieniu atakiem (wewnętrzny CD 1 s)</p>
+<p class="liczby">Poziom 1: Boost unchanged; 216 obrażeń</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/grace-of-enhancement-15780000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="revitalization-contract">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15790000.webp" alt="" width="64" height="64"><div><h3>Revitalization Contract</h3><p class="meta">Postać lvl 23</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+17% Status Effect Resist, +10% więcej na 5 s gdy hit podczas stunned, knocked down, airborne, frozen albo feared (10 stacki); przywraca 35% Max HP przy 10% HP albo less (CD 60 s)</p>
+<p class="liczby">Poziom 1: +35%; 44% Max HP</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/revitalization-contract-15790000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill pasywka" id="vitality-evaporation">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15800000.webp" alt="" width="64" height="64"><div><h3>Vitality Evaporation</h3><p class="meta">Postać lvl 25</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">261 obrażeń przy trafieniu podczas cel&#x27;s HP is above 70% (wewnętrzny CD 1 s)</p>
+<p class="liczby">Poziom 1: 492 obrażeń above 61%</p>
+
+<p class="nota">Pasywka nie ma specjalizacji.</p>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/vitality-evaporation-15800000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article></div></section>
+<section id="stygmy"><h2>Stygmy</h2><div class="siatka-skilli"><article class="skill stygma" id="glacial-smite">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15120000.webp" alt="" width="64" height="64"><div><h3>Glacial Smite</h3><p class="meta">CD 90 s, 200 · MP 90 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">1 477 Water obrażeń do 4 wrogów. 20 stagger.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Do +20% obrażeń z więcej celów</div></li><li class=""><span class="ol">poziom 10</span><div>−30 s CD</div></li><li class=""><span class="ol">poziom 15</span><div>50% Frost na 3 s</div></li><li class=""><span class="ol">poziom 20</span><div>Ignoruje Block i Evasion, lands as Multi-Hit</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/glacial-smite-15120000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="soul-freeze">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15130000.webp" alt="" width="64" height="64"><div><h3>Soul Freeze</h3><p class="meta">CD 60 s, 200 · MP 60 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">1 037 Water obrażeń z 75% szansy na Seal na 5 s (100% na NPCs). 20 stagger.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>50% Root na 5 s</div></li><li class=""><span class="ol">poziom 10</span><div>-1 000 Stamina</div></li><li class=""><span class="ol">poziom 15</span><div>+2 s Seal</div></li><li class=""><span class="ol">poziom 20</span><div>+25% Seal chance</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/soul-freeze-15130000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="curse-tree">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15140000.webp" alt="" width="64" height="64"><div><h3>Curse: Tree</h3><p class="meta">CD 90 s (71 s at 20), 0 · MP 90 s (71 s at 20), 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Polymorphs cel w tree na 10 s i cuts jego Fire Tolerance o 20%; ciebie move back; attacking tree przebija it. 20 stagger.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Więcej trafia do break it</div></li><li class=""><span class="ol">poziom 10</span><div>-200 Block i Evasion na 10 s po</div></li><li class=""><span class="ol">poziom 15</span><div>-20% Impact-type Resist na 10 s po</div></li><li class=""><span class="ol">poziom 20</span><div>Debuff applies even jeśli broken</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/curse-tree-15140000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="steel-barrier">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15160000.webp" alt="" width="64" height="64"><div><h3>Steel Barrier</h3><p class="meta">CD 60 s, 0 · MP 60 s, 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Tarcza worth 16% of Max HP na 60 s (35% przy 20), +10% PvE i +5% PvP Damage Tolerance podczas it holds, 300 Stamina gdy it ends. Mobile.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+10% Move Speed</div></li><li class=""><span class="ol">poziom 10</span><div>HP regen przy intervals</div></li><li class=""><span class="ol">poziom 15</span><div>+10% PvE i +5% PvP Tolerance</div></li><li class=""><span class="ol">poziom 20</span><div>−15 s CD</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/steel-barrier-15160000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="cold-storm">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15200000.webp" alt="" width="64" height="64"><div><h3>Cold Storm</h3><p class="meta">CD 60 s, 200 · MP 60 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">945 obrażeń Water i Slow, do 4 wrogów w 5 m. Burza na 7 s nakłada Frostbite: 472 obrażeń Water co 1 s przez 10 s.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Enhanced Frostbite</div></li><li class=""><span class="ol">poziom 10</span><div>30% Root na 2 s</div></li><li class=""><span class="ol">poziom 15</span><div>+3 s storm</div></li><li class=""><span class="ol">poziom 20</span><div>+10 s Frostbite</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/cold-storm-15200000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="arctic-armor">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15230000.webp" alt="" width="64" height="64"><div><h3>Arctic Armor</h3><p class="meta">CD 90 s, 0 · MP 90 s, 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+20% PvE i +10% PvP Damage Tolerance na 10 s (20 s przy 20); attackers w 7 m have 5% szansy na be frozen na 3 s; Magic Displacement podczas MP is 50% albo więcej</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+20% Impact-type Resist</div></li><li class=""><span class="ol">poziom 10</span><div>X1,5 pochłania Essence</div></li><li class=""><span class="ol">poziom 15</span><div>X1,5 Robe of Cold</div></li><li class=""><span class="ol">poziom 20</span><div>+20% PvE i +10% PvP Tolerance</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/arctic-armor-15230000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="lumiels-space">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15300000.webp" alt="" width="64" height="64"><div><h3>Lumiel&#x27;s Space</h3><p class="meta">CD 90 s, 300 · MP 90 s, 300</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">998 obrażeń do 4 wrogów z 75% szansy na Airborne na 3 s (100% na NPCs)</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Do +20% obrażeń z więcej celów</div></li><li class=""><span class="ol">poziom 10</span><div>Dodaje Depths</div></li><li class=""><span class="ol">poziom 15</span><div>+1 s Depths Knockdown</div></li><li class=""><span class="ol">poziom 20</span><div>−30 s CD</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/lumiels-space-15300000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="delayed-explosion">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15320000.webp" alt="" width="64" height="64"><div><h3>Delayed Explosion</h3><p class="meta">CD 30 s, 200 · MP 30 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">1 116 Fire obrażeń po 4 s; cel takes 15% więcej obrażeń od ciebie w trakcie delay. Mobile.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Przywraca 200 MP</div></li><li class=""><span class="ol">poziom 10</span><div>−10 s CD</div></li><li class=""><span class="ol">poziom 15</span><div>Becomes AoE skill</div></li><li class=""><span class="ol">poziom 20</span><div>+10% więcej obrażeń taken</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/delayed-explosion-15320000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="divine-burst">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15360000.webp" alt="" width="64" height="64"><div><h3>Divine Burst</h3><p class="meta">CD 60 s, 200 · MP 60 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">1 140 Fire obrażeń jeden cel. 50 stagger.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+20% Skill Speed</div></li><li class=""><span class="ol">poziom 10</span><div>Pochłania 10% HP</div></li><li class=""><span class="ol">poziom 15</span><div>75% Knock Back</div></li><li class=""><span class="ol">poziom 20</span><div>Stun na 3 s po Knock Back</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/divine-burst-15360000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="fire-wall">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15390000.webp" alt="" width="64" height="64"><div><h3>Fire Wall</h3><p class="meta">CD 60 s, 200 · MP 60 s, 200</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Ściana 1 × 10 m na 3 s: 1 300 obrażeń Fire i Embers, do 4 wrogów, potem 650 obrażeń Fire co 1 s przez 10 s.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>Enhanced Embers</div></li><li class=""><span class="ol">poziom 10</span><div>+2 m width</div></li><li class=""><span class="ol">poziom 15</span><div>+2 s wall</div></li><li class=""><span class="ol">poziom 20</span><div>+10 s Embers</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/fire-wall-15390000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="element-enhancement">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15400000.webp" alt="" width="64" height="64"><div><h3>Element Enhancement</h3><p class="meta">CD 60 s, 0 · MP 60 s, 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">+20% Fire Attack i +20% Water Attack na 10 s (20 s przy 20). Mobile.</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+200 Accuracy</div></li><li class=""><span class="ol">poziom 10</span><div>X1,5 Robe of Flame effect</div></li><li class=""><span class="ol">poziom 15</span><div>X1,5 Grace of Enhancement effect</div></li><li class=""><span class="ol">poziom 20</span><div>+10% więcej Fire i Water Attack</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/element-enhancement-15400000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="hibernation">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15410000.webp" alt="" width="64" height="64"><div><h3>Hibernation</h3><p class="meta">CD 180 s (142 s at 20), 0 · MP 180 s (142 s at 20), 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">Immunity do obrażeń i status effects na 5 s; usuwa Hibernation ends it early, przywraca 20% Max HP i moves ciebie back</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+100% Incoming Heal</div></li><li class=""><span class="ol">poziom 10</span><div>5% Max HP co 1 s</div></li><li class=""><span class="ol">poziom 15</span><div>+2 s</div></li><li class=""><span class="ol">poziom 20</span><div>Triggers na Impact-type status</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/hibernation-15410000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article>
+<article class="skill stygma" id="assault-bombardment">
+<div class="skill-gora"><img class="ikona" src="ikony/sorcerer/15700000.webp" alt="" width="64" height="64"><div><h3>Assault Bombardment</h3><p class="meta">CD 120 s, 0 · MP 120 s, 0</p></div>
+<p class="priorytet"><span class="lv lv-brak">brak danych</span></p></div>
+<p class="opis">886 obrażeń do 4 wrogów z 30% szansy na Frost na 3 s (100% na NPCs); do +20% Defense o cele hit</p>
+
+
+<h4>Perki stygmy</h4><ul class="opcje"><li class=""><span class="ol">poziom 5</span><div>+20% Attack na 5 s przy trafieniu</div></li><li class=""><span class="ol">poziom 10</span><div>500 MP obrażeń</div></li><li class=""><span class="ol">poziom 15</span><div>+10 m range</div></li><li class=""><span class="ol">poziom 20</span><div>+20% Frost chance</div></li></ul>
+
+<p class="zrodla"><a href="https://aion2.gg/database/skills/assault-bombardment-15700000">karta skilla na aion2.gg</a> · Aion 2 Companion (aion2.grimvane.app), wartości Global przy podanym poziomie skilla.</p>
+</article></div></section>
+<section id="build"><h2>Build PvE</h2>
+<p>Plan PvE z aion2.gg (klient EU/NA). Jednej docelowej rangi większości skilli ten poradnik nie podaje.</p>
+<ul>
+<li><strong>Stygmy grupy:</strong> Element Enhancement, Fire Wall, Delayed Explosion i Cold Storm. Solo: Steel Barrier zamiast Cold Storm.</li>
+<li><strong>Otwieranie bossa:</strong> łańcuch Flame Arrow, potem Wish of Concentration i Element Enhancement, potem Fire Wall i Bittercold Wind, Delayed Explosion, Winter's Shackles i Hellfire.</li>
+<li>Robe of Earth chce 50% MP pod Critical Hit, Grace of Enhancement chce 25% MP pod Damage Boost.</li>
+<li>Frost i Frost Burst są pod paczki. Boss zrzuca Frost, a Frost Burst odpala się wtedy tylko w 7%.</li>
+<li>Flame Scattershot zostaw na randze 1.</li>
+</ul>
+</section>
+
+<section id="zrodla"><h2>Źródła</h2><ul><li><a href="https://aion2.grimvane.app/companion/wiki/sorcerer-skills/">Aion 2 Companion — skille, pasywki, stygmy</a></li>
+<li><a href="https://aion2.gg/database/classes/sorcerer">aion2.gg — lista skilli klasy</a></li>
+<li><a href="https://aion2.gg/guides/sorcerer-pve-build">aion2.gg — build PvE</a></li>
+<li><a href="https://aion2data.com/classes/sorcerer">aion2data.com — dane klienta Global</a></li></ul><p>Data tej strony: 11 listopada 2026. Edycja Global (Steam, EU). Nazwy skilli są po angielsku, tak jak w kliencie.</p></section>
+<nav class="sasiedzi" aria-label="Sąsiednie klasy"><a href="ranger.html">← Ranger</a><a href="index.html">Lista klas</a><a href="spiritmaster.html">Spiritmaster →</a></nav>
+</article>
+  </main>
+  <footer class="stopka">
+    <div class="kontener">
+      <p><a href="index.html">Wróć do listy klas</a> · <a href="../../index.html#spis">Spis poradników</a></p>
+      <p>Aion 2 jest znakiem towarowym swoich właścicieli. Ta strona nie jest z nimi powiązana.</p>
+    </div>
+  </footer>
+</body>
+</html>

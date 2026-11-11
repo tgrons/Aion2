@@ -1,0 +1,353 @@
+/* Wspólny wygląd poradnika klas. Dokłada się do css/style.css. */
+
+body.strona-klas .kontener {
+  width: min(76rem, calc(100% - 2rem));
+}
+
+.strona-klas .pasek nav {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.lead-klasy {
+  max-width: 46rem;
+}
+
+.spis-sekcji {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.spis-sekcji a {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--akcent-jasny);
+  border: 1px solid var(--linia);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.spis-sekcji a:hover {
+  border-color: rgba(228, 197, 125, 0.6);
+  color: #fff;
+}
+
+.siatka-klas {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  gap: 0.85rem;
+}
+
+.klasa-karta {
+  display: grid;
+  grid-template-columns: 4.4rem 1fr;
+  gap: 0.8rem 0.85rem;
+  align-items: center;
+  min-height: 7.2rem;
+  padding: 0.85rem 0.95rem;
+  background:
+    linear-gradient(180deg, rgba(224, 178, 90, 0.08), transparent 42%),
+    var(--tlo-karta);
+  border: 1px solid var(--linia);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.klasa-karta:hover {
+  border-color: rgba(228, 197, 125, 0.6);
+  background:
+    linear-gradient(180deg, rgba(224, 178, 90, 0.14), transparent 48%),
+    var(--tlo-karta-hover);
+}
+
+.klasa-karta img {
+  width: 4.4rem;
+  height: 4.4rem;
+  object-fit: contain;
+  grid-row: span 3;
+  align-self: center;
+  filter: drop-shadow(0 0 10px rgba(224, 178, 90, 0.25));
+}
+
+.klasa-rola {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--akcent);
+}
+
+.klasa-nazwa {
+  font-family: var(--font-naglowek);
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.klasa-linia {
+  color: var(--tekst-miekkie);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.naglowek-klasy {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 1.1rem;
+  align-items: center;
+  margin: 1.6rem 0 1.2rem;
+}
+
+.naglowek-klasy img {
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: contain;
+  grid-row: span 4;
+  filter: drop-shadow(0 0 14px rgba(224, 178, 90, 0.28));
+}
+
+.naglowek-klasy h1 {
+  margin: 0;
+}
+
+.siatka-skilli {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 980px) {
+  .siatka-skilli {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skill.szeroki {
+    grid-column: 1 / -1;
+  }
+}
+
+.skill {
+  border: 1px solid var(--linia);
+  border-top: 3px solid var(--akcent);
+  border-radius: 12px;
+  padding: 0.85rem 0.95rem 0.7rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(0, 0, 0, 0.18));
+}
+
+.skill.pasywka {
+  border-top-color: var(--uwaga);
+}
+
+.skill.stygma {
+  border-top-color: #c58cff;
+}
+
+.skill-gora {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.skill .ikona {
+  width: 58px;
+  height: 58px;
+  border-radius: 10px;
+  border: 1px solid rgba(224, 178, 90, 0.45);
+  background: #07090d;
+  object-fit: cover;
+  flex: none;
+}
+
+.skill h3 {
+  margin: 0;
+  font-family: var(--font-naglowek);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.skill .meta,
+.skill .zrodla,
+.skill .liczby {
+  margin: 0.15rem 0 0;
+  color: var(--tekst-miekkie);
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.priorytet {
+  margin-left: auto;
+  text-align: right;
+  flex: none;
+}
+
+.lv {
+  display: inline-block;
+  min-width: 2.4rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-weight: 800;
+  font-size: 0.92rem;
+  border-radius: 8px;
+  padding: 0.15rem 0.55rem;
+  line-height: 1.35;
+}
+
+.lv-max {
+  background: var(--akcent);
+  color: #1a1408;
+}
+
+.lv-mid {
+  background: #6fd3e8;
+  color: #06222a;
+}
+
+.lv-low {
+  background: #3a3150;
+  color: #e6deef;
+}
+
+.lv-brak {
+  background: transparent;
+  color: var(--tekst-miekkie);
+  border: 1px dashed rgba(228, 197, 125, 0.45);
+  font-weight: 650;
+  font-size: 0.75rem;
+}
+
+.skill .opis,
+.skill .nota,
+.skill .wybor {
+  margin: 0.55rem 0 0;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.skill .nota,
+.skill .wybor {
+  color: var(--tekst-miekkie);
+  font-size: 0.92rem;
+}
+
+.skill h4 {
+  margin: 0.75rem 0 0.3rem;
+}
+
+.opcje {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.opcje li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.45rem 0.6rem;
+  align-items: start;
+  margin: 0.35rem 0 0;
+  padding: 0.4rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.opcje li.zalecane {
+  background: linear-gradient(90deg, rgba(224, 178, 90, 0.18), rgba(224, 178, 90, 0.05));
+  border-color: rgba(224, 178, 90, 0.55);
+}
+
+.ol {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--akcent);
+  white-space: nowrap;
+  padding-top: 0.18rem;
+}
+
+.znacznik {
+  display: inline-block;
+  margin-left: 0.35rem;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1a1408;
+  background: var(--akcent);
+  border-radius: 999px;
+  padding: 0.05rem 0.4rem;
+  vertical-align: 0.1em;
+}
+
+.opcje small,
+.wybor {
+  color: var(--tekst-miekkie);
+}
+
+.sasiedzi {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1.6rem 0 0.4rem;
+  font-family: var(--font-ui);
+}
+
+.sasiedzi a {
+  color: var(--akcent-jasny);
+  text-decoration: none;
+  border: 1px solid var(--linia);
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+}
+
+.sasiedzi a:hover {
+  border-color: rgba(228, 197, 125, 0.6);
+  color: #fff;
+}
+
+.sciagi {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+@media (min-width: 800px) {
+  .sciagi {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.komplet {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+}
+
+.komplet.pelne {
+  color: var(--wskazowka);
+}
+
+.komplet.czesciowe {
+  color: var(--ostrzezenie);
+}
